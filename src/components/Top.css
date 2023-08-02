@@ -1,0 +1,291 @@
+body{
+    font-family: 'IM Fell English', serif;
+}
+.navbar {
+    height: 80px !important;
+    opacity: .8;
+}
+.navbar:hover{
+    opacity: 1;
+}
+.logo {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    max-width: 100%;
+
+}
+
+.logo:hover {
+    transform: scale(1.3) rotate(360deg);
+}
+
+.Top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    left: 20%;
+    right: 15%;
+    top: 120px;
+}
+
+.Top-left {
+    text-align: left;
+}
+
+.hireme-btn {
+    background-color: #fe481c;
+    border: none;
+    padding: 12px 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.hireme-lnk {
+    color: white;
+    text-decoration: none;
+}
+
+.span-items {
+    /* border:10px solid white; */
+    border: black;
+    border-radius: 5px;
+    margin: 40px 3px;
+    padding: 6px 12px;
+    text-decoration: none;
+    /* border-radius: 10px; */
+}
+
+.span1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.s1 {
+    background-color: #ff8e3e;
+}
+
+.s2 {
+    background-color: #241f21;
+    color: white;
+}
+
+.s3 {
+    background-color: #fb6800;
+    color: white;
+}
+
+.s4 {
+    background-color: #e1e1e1;
+}
+
+.project-btn {
+    border: none;
+    background-color: white;
+    padding: 12px 32px;
+}
+
+.Intro {
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+    font-size: xx-large;
+    margin-top: 0px;
+    padding: 0px;
+}
+.input-cursor {
+    display: inline-block;
+    vertical-align: text-bottom;
+    width: 10px;
+    height: 30px;
+    background-color: black; /* The color of the blinking cursor is black */
+    animation: blink 0.7s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+/* h1 .type{
+    font-size: 2.5rem;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap; 
+    width: 0;
+    animation: 
+      typing 1s steps(25, end) forwards;
+}
+TypingIt .type2{
+    font-size: 2.5rem; 
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap; 
+    width: 0;
+    animation: 
+      typing 1s steps(25, end) forwards;
+    animation-delay: 1s;
+}
+TypingIt .type3{
+    font-size: 2.5rem; 
+    overflow: hidden;
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    width: 0;
+    animation: 
+      typing 1s steps(25, end) forwards;
+    animation-delay: 2s;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink {
+  from { border-color: transparent }
+  to { border-color: orange; }
+} */
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    transition: transform .2s;
+}
+
+.profile-img:hover {
+    transform: scale(1.2);
+}
+
+.Hobby-background {
+    width: 100%;
+    /* background-color: #313131; */
+    background-image: url(https://static.wixstatic.com/media/3a4de5_b3845c0e12574931abb891f72336924f~mv2.jpg/v1/fill/w_1899,h_1290,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/3a4de5_b3845c0e12574931abb891f72336924f~mv2.jpg);
+    position: absolute;
+    top: 600px;
+    height: 400px;
+}
+.Hobby-title{
+    color: #ded4cc;
+}
+.Hobbies {
+
+    position: absolute;
+    height: 400px;
+    left: 15%;
+    right: 15%;
+    margin-top: 25px;
+    /* top: 600px; */
+    /* opacity: .9; */
+    /* border-radius: 50px solid black; */
+}
+.hobby-names{
+    /* color: #fe481c; */
+}
+.Hobbies-list {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.hobb {
+    /* border: 2px solid grey; */
+    font-size: x-large;
+    /* background-color: white; */
+    background-image: url(https://static.wixstatic.com/media/3a4de5_8324f89409404dafa27a337cda390f08~mv2.jpg/v1/crop/x_233,y_167,w_1772,h_717/fill/w_911,h_364,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/HEADER-BACKGROUND.jpg);
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: transform .2s;
+    border-radius: 10px;
+}
+
+.hobb:hover {
+    transform: scale(1.2);
+}
+
+.nav-element {
+    font-size: large !important;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+hr {
+    color: grey;
+}
+/* .skill-area{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 1000px;
+    height: 500px;
+    background-image: url(./space.jpg);
+} */
+
+.skill-area{
+    position: absolute;
+    top: 1000px;
+    /* background-color: #dbd5cd; */
+    background-image: url(https://static.wixstatic.com/media/3a4de5_b7da5c44a88e4a2793c3cfa51c77cd8e~mv2.jpg/v1/fill/w_1899,h_639,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3a4de5_b7da5c44a88e4a2793c3cfa51c77cd8e~mv2.jpg);
+    width: 100%;
+    text-align: center;
+}
+
+.MySkills {
+    width: 70%;
+    left: 15%;
+    right: 15%;
+}
+.skills {
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    margin-top: 40px;
+    /* left: 15%;
+    right: 15%; */
+    /* position:inherit; */
+}
+
+.skill {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.skill:hover {
+    transform: scale(1.2);
+}
+
+.dsa-img {
+    height: 150px;
+    width: 300px;
+    margin-bottom: 25px;
+}
+
+.react-img {
+    height: 150px;
+    width: 150px;
+    /* margin-bottom: 20px; */
+}
+
+.python-img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.profile-link {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.profile-links {
+    margin-top: 30px;
+    /* margin-bottom: 80px; */
+}

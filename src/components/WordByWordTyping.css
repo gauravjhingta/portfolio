@@ -1,0 +1,33 @@
+.typing-effect {
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #333; /* Optional: Creates a typing cursor effect */
+  }
+  
+  .word {
+    display: inline-block;
+    opacity: 0; /* Initially hide the words */
+    animation: fadeIn 0.5s ease-in-out; /* Add a fade-in animation for each word */
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  /* Letter-by-letter typing animation */
+  .letter-by-letter {
+    animation: typeLetter 0.05s steps(1, end) forwards;
+  }
+  
+  @keyframes typeLetter {
+    from { width: 0; }
+    to { width: 100%; }    
+  }
+  
+  /* Optional: Delay between words */
+  .word:not(:first-child) {
+    animation-delay: 2s; /* Change 2s to adjust the delay between words */
+  }
+  
